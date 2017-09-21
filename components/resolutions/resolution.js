@@ -1,5 +1,3 @@
-
-
 if(Meteor.isClient) {
     Template.resolution.helpers({
         isOwner: function() {

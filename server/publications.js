@@ -5,4 +5,4 @@ Meteor.publish('resolutions', function(){
         { owner: this.userId }
       ]
     });
-  });
+});

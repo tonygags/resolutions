@@ -38,7 +38,7 @@ Accounts.ui.config({
     'change .hide-finished': function() {
       Session.set('hideFinished', event.target.checked);
     }
-  });
+});
 
 
 

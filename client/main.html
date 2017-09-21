@@ -1,34 +1,34 @@
 <head>
     <title>Resolutions</title>
-  </head>
+</head>
   
-  <body>
-    <div class="container">
-        {{ > loginButtons }}
-      <header>
-          <h1>Monthly Resolutions</h1>
-  
-          <label class="hide-finished">
-            <input type="checkbox" checked="{{hideFinished}}">
-            Hide Finished Resolutions
-          </label>
-  
-          <!-- {{#if currentUser}} -->
-        
-          <form class="new-resolution" >
-            <input type="text" name="title" placeholder="Insert a new resolution" >
-            <input type="submit" value="Submit">
-          </form>
-          <!-- {{/if}} -->
+<body>
+  <div class="container">
+      {{ > loginButtons }}
+    <header>
+        <h1>Monthly Resolutions</h1>
+
+        <label class="hide-finished">
+          <input type="checkbox" checked="{{hideFinished}}">
+          Hide Finished Resolutions
+        </label>
+
+        <!-- {{#if currentUser}} -->
       
-      </header> 
-      <ul>
-          {{#each resolutions}}
-            {{ > resolution }}
-          {{/each }}
-      </ul>
-    </div>
-  </body>
+        <form class="new-resolution" >
+          <input type="text" name="title" placeholder="Insert a new resolution" >
+          <input type="submit" value="Submit">
+        </form>
+        <!-- {{/if}} -->
+    
+    </header> 
+    <ul>
+        {{#each resolutions}}
+          {{ > resolution }}
+        {{/each }}
+    </ul>
+  </div>
+</body>
   
   
   
