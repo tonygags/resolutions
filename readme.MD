@@ -9,12 +9,12 @@ This app requires you to have Meteor installed on your machine. Then you can clo
 ```
 meteor npm install
 ```
-to install any module dependencies.
+
 To run the application enter:
 
 ```
 meteor
 ```
 
-the applicatiion can be viewed in your browser at: 
+the application can then be viewed in your browser at: 
 localhost:3000
